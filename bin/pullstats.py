@@ -3,7 +3,8 @@ import json
 import os
 import urllib2
 
-from bbstats.scoreboards.nbascoreboard import NBAScoreboard
+from bbstats.wnba.wnbascoreboard import WNBAScoreboard
+from bbstats.nba.nbascoreboard import NBAScoreboard
 
 STATS_PATH = 'output'
 
